@@ -1,15 +1,14 @@
-# Sample Hardhat Project
+FOR EVMOS MOMENTUM HACKATHON
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+youtube video: https://youtu.be/t0dP5l3LuYk
 
-Try running some of the following tasks:
+TO RUN PROJECT: 
 
-```shell
-npx hardhat help
-npx hardhat test
-GAS_REPORT=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
-"# strivest" 
-"# strivest" 
+1. clone the project
+2. npm install
+3. npx hardhat test test/stream.test.js
+
+to deploy :
+
+1. Put privateKey and InfuraId in hardhat.config.js
+2. npx hardhat run scripts/deploy.js --network evmos
